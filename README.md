@@ -20,3 +20,6 @@ LIST - Cliente -> Servidor - O servidor lê a pasta e retorna uma string contend
 UPLOAD - Cliente -> Servidor - O cliente envia o nome do arquivo, o tamanho em bytes e transmite o fluxo de dados binários.
 DOWNLOAD - Cliente -> Servidor - O servidor valida a existência do arquivo, retorna confirmação booleana, o tamanho e inicia a transmissão.
 EXIT - Cliente -> Servidor - Encerra a sessão TCP e fecha os sockets de comunicação.
+
+# Pré-requisitos (onde executar)
+Java Development Kit (JDK 8 ou superior) ou IDE (NetBeans / Eclipse / VS Code).
